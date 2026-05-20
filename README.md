@@ -42,7 +42,7 @@ Além disso, o projeto utiliza o conceito de Pipeline, permitindo o processament
 
 O hardware pensado para a solução inclui microcontroladores e sistemas embarcados de baixo consumo, ideais para aplicações que exigem eficiência energética e estabilidade contínua.
 
-Comparativo Técnico — Assembly vs Python
+Comparativo Técnico  Assembly vs Python
 
 Linguagens de alto nível, como Python, oferecem maior facilidade de desenvolvimento, porém exigem mais recursos computacionais para executar tarefas simples.
 
