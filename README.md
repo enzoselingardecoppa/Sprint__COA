@@ -44,6 +44,16 @@ O hardware pensado para a solução inclui microcontroladores e sistemas embarca
 
 Comparativo Técnico  Assembly vs Python
 
+Para comprovar a eficiência da nossa proposta, este repositório contém dois códigos exemplares (main.py e processamento.asm) que realizam a mesma tarefa lógica. O objetivo desta comparação é evidenciar o impacto da arquitetura de software no consumo de recursos computacionais:
+Python (Alto Nível): Representa o modelo de desenvolvimento atual em muitos eletropostos, que utiliza hardware genérico e linguagens com altas camadas de abstração
+ Embora funcional, essa abordagem exige um interpretador e gera um "overhead" que consome milhares de ciclos de CPU desnecessários para operações simples
+
+Assembly (Baixo Nível): Demonstra a nossa solução otimizada. Ao programar em baixo nível, eliminamos as abstrações e utilizamos instruções otimizadas que falam diretamente com o processador
+
+Por que isso prova nosso ponto? A sustentabilidade na arquitetura de computadores baseia-se no princípio de que menos instruções processadas resultam em um menor consumo de energia
+ Ao reduzirmos os ciclos de clock necessários para gerenciar um eletroposto, diminuímos o desperdício energético do hardware embarcado, garantindo que a energia renovável seja utilizada de forma inteligente e eficiente na mobilidade elétrica
+
+
 Linguagens de alto nível, como Python, oferecem maior facilidade de desenvolvimento, porém exigem mais recursos computacionais para executar tarefas simples.
 
 Isso acontece porque essas linguagens trabalham com camadas de abstração e dependem de interpretadores, aumentando o número de instruções processadas pela CPU.
@@ -51,6 +61,8 @@ Isso acontece porque essas linguagens trabalham com camadas de abstração e dep
 Já o código em Assembly permite acesso direto ao hardware, eliminando grande parte desse overhead e tornando a execução muito mais eficiente.
 
 Como resultado, o sistema consegue reduzir significativamente o consumo energético por instrução executada, além de melhorar o desempenho geral do processamento.
+
+
 
 Impactos Esperados e Sustentabilidade
 
