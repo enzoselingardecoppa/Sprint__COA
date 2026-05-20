@@ -1,11 +1,17 @@
 # Sprint__COA
 
 Sistema Otimizado para Eletropostos com Arquitetura RISC
+
 Integrantes
+
 Gustavo de Souza Abreu — RM 574080
+
 Lucas Nogueira dos Santos — RM 572592
+
 Enzo Coppa Selingarde — RM 573393
+
 Gabriel Carlos Barbosa — RM 574074
+
 Problema
 
 Atualmente, muitos sistemas utilizados em eletropostos operam com softwares de alto nível e hardwares genéricos, o que acaba gerando um consumo desnecessário de energia e menor eficiência no processamento de tarefas críticas.
